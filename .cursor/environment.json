@@ -1,0 +1,10 @@
+{
+  "name": "pytest-scenarios",
+  "user": "ubuntu",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "install": "make install",
+  "start": "bash .cursor/start-mongodb.sh",
+  "ports": [{ "name": "mongodb", "port": 27017 }]
+}
